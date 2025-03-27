@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #E2F3F4;
+    width: 100%;
+    color: #6DC7D1;
+}
+nav{
+    background-color: #6DC7D1;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    margin-bottom: 100px;
+    
+}
+header{
+    margin-top: 100px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a :hover{
+    color: red;
+    transition: 1s;
+    border-bottom: 5px solid red;
+}
+nav ul li a :active{
+    color: red;
+    border-bottom: 5px solid red;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+.afficherpub{
+    border: 1px solid #333;
+    width: 50%;
+    height: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    /*flex-wrap: wrap;*/
+    
+}
+/*.afficherpub .bonjour{
+    padding-bottom: 10px;
+}*/
+.afficherpub .publier{
+    background-color: #ffffff;
+    width: 70% 60%;
+    margin: 20px auto;
+    /*padding: 20px;*/
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.publication{
+    background-color: #fff;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.publication img{
+    width: 100%;
+
+    height: auto; /* Maintient les proportions de l'image */
+  object-fit: contain; /* S'assure que l'image ne sera ni coupée ni zoomée */
+  display: block; /* Évite les marges indésirables dans certains navigateurs */
+
+    height: 400px ;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.publication .element-pub{
+    align-items: center;
+
+}
+input{
+    border-radius: 10px;
+    border: #333 1px solid;
+    padding: 10px;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    
+}
+footer a{
+    color: #6DC7D1;
+}
